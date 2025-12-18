@@ -2,6 +2,7 @@
 
     A simple, modern, and mobile-responsive Study Session Tracker web application built using HTML, CSS, and JavaScript.
     It helps users track study activities, calculate total study time, and stay focused.
+                                ![81178b47a8598f0c81c4799f2cdd4057](https://github.com/user-attachments/assets/2cc9686d-a085-41bd-abe6-cede34852057)
 
 🚀 Features
 
@@ -28,7 +29,8 @@
     CSS3 – Styling & responsiveness
     
     JavaScript (Vanilla) – Logic & interactivity
-    
+                                                        ![web3](https://github.com/user-attachments/assets/0198f492-5272-4c67-ac41-805aa21bc051)
+
     📸 Screenshots
     
     (Add screenshots here after uploading images)
