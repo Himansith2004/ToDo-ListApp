@@ -54,7 +54,7 @@
 
     
     
-    git https:[(https://github.com/YourUsername](https://himansith2004.github.io/ToDo-ListApp/))
+    git https:[GitHub Profile](https://himansith2004.github.io/ToDo-ListApp/))
 
 
 Open the project folder
