@@ -1,25 +1,25 @@
 📚 Study Session Tracker (To-Do List)
 
-A simple, modern, and mobile-responsive Study Session Tracker web application built using HTML, CSS, and JavaScript.
-It helps users track study activities, calculate total study time, and stay focused.
+    A simple, modern, and mobile-responsive Study Session Tracker web application built using HTML, CSS, and JavaScript.
+    It helps users track study activities, calculate total study time, and stay focused.
 
 🚀 Features
 
-➕ Add study activities with time duration
-
-🗑️ Delete individual activities
-
-✅ Mark activities as completed
-
-⏱️ Automatic total time calculation
-
-🎯 Focus status changes based on total study time
-
-🔄 Reset session instantly
-
-📱 Fully mobile-responsive design
-
-🎨 Modern UI with background image & glassmorphism style
+    ➕ Add study activities with time duration
+    
+    🗑️ Delete individual activities
+    
+    ✅ Mark activities as completed
+    
+    ⏱️ Automatic total time calculation
+    
+    🎯 Focus status changes based on total study time
+    
+    🔄 Reset session instantly
+    
+    📱 Fully mobile-responsive design
+    
+    🎨 Modern UI with background image & glassmorphism style
 
 🛠️ Technologies Used
 
