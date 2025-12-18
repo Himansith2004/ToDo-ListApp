@@ -54,7 +54,7 @@
 
     Clone this repository
     
-    git clone https://github.com/Himansith2004/study-session-tracker.git
+    git clone https: #(http://github.com/Himansith2004/study-session-tracker.git)
 
 
 Open the project folder
