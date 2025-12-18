@@ -6,7 +6,7 @@
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Background */
+
 body {
     min-height: 100vh;
     background-image: url("images/sea-3652697_1280.jpg");
@@ -19,9 +19,16 @@ body {
     align-items: center;
     color: #fff;
     padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: flex-start; 
+    align-items: center;
+    padding: 20px;
 }
 
-/* Main container */
+
 .container {
     width: 100%;
     max-width: 780px;
@@ -31,14 +38,14 @@ body {
     border-radius: 18px;
 }
 
-/* Title */
+
 .h2001 {
     text-align: center;
     font-size: clamp(22px, 4vw, 32px);
     margin-bottom: 20px;
 }
 
-/* Inputs */
+
 input {
     width: 100%;
     padding: 14px 16px;
@@ -49,7 +56,7 @@ input {
     font-size: 16px;
 }
 
-/* Buttons */
+
 button {
     width: 100%;
     padding: 14px;
@@ -69,7 +76,7 @@ button:hover {
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
 }
 
-/* Activity List */
+
 ul {
     list-style: none;
     margin: 18px 0;
@@ -91,20 +98,20 @@ ul li {
     font-size: 15px;
 }
 
-/* List buttons inside li */
+
 ul li button {
     width: auto;
     padding: 8px 14px;
     font-size: 14px;
 }
 
-/* Info Text */
+
 p {
     font-size: 16px;
     margin-top: 10px;
 }
 
-/* Highlights */
+
 #total {
     color: #00ffcc;
     font-weight: bold;
@@ -115,12 +122,12 @@ p {
     font-weight: bold;
 }
 
-/* Reset Button */
+
 button:last-of-type {
     background: linear-gradient(135deg, #ff416c, #ff4b2b);
 }
 
-/* 🔥 MOBILE OPTIMIZATION */
+
 @media (max-width: 600px) {
     .container {
         padding: 18px;
@@ -133,5 +140,35 @@ button:last-of-type {
 
     ul li button {
         width: 100%;
+    }
+}
+
+/* Footer */
+.footer {
+    margin-top: 20px;
+    padding: 12px 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #e0e0e0;
+
+    background: rgba(0, 0, 0, 0.45);
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+
+    width: 100%;
+    max-width: 780px;
+}
+
+
+.footer .author {
+    color: #00ffcc;
+    font-weight: 600;
+}
+
+
+@media (max-width: 600px) {
+    .footer {
+        font-size: 13px;
+        padding: 10px;
     }
 }
