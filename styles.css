@@ -1,0 +1,137 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Background */
+body {
+    min-height: 100vh;
+    background-image: url("images/pic1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 20px;
+}
+
+/* Main container */
+.container {
+    width: 100%;
+    max-width: 780px;
+    background: rgba(0, 0, 0, 0.45);
+    backdrop-filter: blur(12px);
+    padding: 25px;
+    border-radius: 18px;
+}
+
+/* Title */
+.h2001 {
+    text-align: center;
+    font-size: clamp(22px, 4vw, 32px);
+    margin-bottom: 20px;
+}
+
+/* Inputs */
+input {
+    width: 100%;
+    padding: 14px 16px;
+    margin-bottom: 14px;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+/* Buttons */
+button {
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 14px;
+    border-radius: 12px;
+    border: none;
+    background: linear-gradient(135deg, #00c6ff, #0072ff);
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+/* Activity List */
+ul {
+    list-style: none;
+    margin: 18px 0;
+    padding: 0;
+}
+
+ul li {
+    background: rgba(255, 255, 255, 0.15);
+    padding: 16px;
+    border-radius: 12px;
+    margin-bottom: 12px;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+
+    font-size: 15px;
+}
+
+/* List buttons inside li */
+ul li button {
+    width: auto;
+    padding: 8px 14px;
+    font-size: 14px;
+}
+
+/* Info Text */
+p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/* Highlights */
+#total {
+    color: #00ffcc;
+    font-weight: bold;
+}
+
+#status {
+    color: #ffd369;
+    font-weight: bold;
+}
+
+/* Reset Button */
+button:last-of-type {
+    background: linear-gradient(135deg, #ff416c, #ff4b2b);
+}
+
+/* 🔥 MOBILE OPTIMIZATION */
+@media (max-width: 600px) {
+    .container {
+        padding: 18px;
+    }
+
+    ul li {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    ul li button {
+        width: 100%;
+    }
+}
