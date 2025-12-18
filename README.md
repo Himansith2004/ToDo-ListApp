@@ -30,7 +30,8 @@
     CSS3 – Styling & responsiveness
     
     JavaScript (Vanilla) – Logic & interactivity
-                                     ![web3](https://github.com/user-attachments/assets/e9dbe6a1-bebf-4cef-9152-719149fc374a)
+    ![web3](https://github.com/user-attachments/assets/4b442302-b1f4-48e8-9ac1-d06d2eabcc4c)
+
                   
     📸 Screenshots
     
