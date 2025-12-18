@@ -50,11 +50,11 @@
             │   └── pic1.jpg
             └── README.md
 
-⚙️ How to Run Locally
+⚙️ How to Run The Application
 
-    Clone this repository
     
-    git clone https: #(http://github.com/Himansith2004/study-session-tracker.git)
+    
+    git https:[(https://github.com/YourUsername](https://himansith2004.github.io/ToDo-ListApp/))
 
 
 Open the project folder
